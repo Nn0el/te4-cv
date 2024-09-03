@@ -1,0 +1,54 @@
+main {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-style: italic;
+    padding-bottom: 7rem;
+}
+
+.container {
+    max-width: min(80ch, 100vw - 2rem);
+    margin-inline: auto;
+    
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+a {
+    color: black;
+}
+
+gallery {
+    list-style: none;
+    padding: 5;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30ch, 1fr));
+    gap: 1rem;
+}
+
+.gallery img {
+    display: block;
+
+    object-fit: cover;
+    aspect-ratio: 4/3;
+    height: auto;
+}
+
+.gallery figure {
+    position: relative;
+}
+
+.gallery figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0.5rem;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+}
