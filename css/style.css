@@ -3,6 +3,7 @@ main {
     padding-right: 1rem;
     font-style: italic;
     padding-bottom: 7rem;
+    
 }
 
 .container {
@@ -10,17 +11,50 @@ main {
     margin-inline: auto;
     
 }
+img {
+    max-width: 100%;
+    min-width: 3rem;
+    height: auto;
+
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+  }
 
 .navbar {
     display: flex;
     justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    background-color: black;
+    
 }
 
+
+
 a {
-    color: black;
+    color: white;
+    
 }
+
+footer{
+    background-color: black;
+    padding: 5ch;
+}
+a:link{
+    text-decoration: none;
+}
+
+a:hover{
+    color:blue;
+}
+
 
 gallery {
     list-style: none;
