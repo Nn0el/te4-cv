@@ -40,9 +40,8 @@ ul {
 
 a {
     color: white;
-    
+    font-family: monospace;
 }
-
 footer{
     background-color: black;
     padding: 5ch;
